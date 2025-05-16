@@ -1,0 +1,10 @@
+[Unit]
+Description=VirtualBox guest VMSVGA resize client
+#RHEL7 says that Virtualization is kvm!?
+ConditionVirtualization=|kvm
+ConditionVirtualization=|oracle
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/VBoxDRMClient
+Restart=on-failure
