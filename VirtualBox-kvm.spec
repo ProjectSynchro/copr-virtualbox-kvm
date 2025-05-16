@@ -55,7 +55,7 @@
 
 Name:       VirtualBox-kvm
 Version:    7.1.8
-Release:    1.%{kvm_ver}%{?dist}
+Release:    1.%{kvmpatch_ver}%{?dist}
 Summary:    A general-purpose full virtualizer for PC hardware
 Conflicts:  VirtualBox
 
