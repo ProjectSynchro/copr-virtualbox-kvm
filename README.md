@@ -4,7 +4,7 @@ The packages in this repo should work on Fedora 40+.
 
 ## Installation 
 
-Activate the repo with `sudo dnf copr enable jackgreiner/virtualbox-kvm` and then run `sudo dnf update --refresh`.
+Activate the repo with `sudo dnf copr enable jackgreiner/virtualbox-kvm` and then install the package with `sudo dnf install VirtualBox-kvm --refresh`.
 
 To revert this, remove the copr repository with `sudo dnf copr remove jackgreiner/virtualbox-kvm` and then run `sudo dnf remove *VirtualBox-kvm*` to remove the virtualbox packages.
 
