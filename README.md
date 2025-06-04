@@ -1,6 +1,6 @@
 Copr repository for VirtualBox, built with KVM support.
 
-The packages in this repo should work on Fedora 40+.
+The packages in this repo should work on Fedora 41+.
 
 ## Installation 
 
